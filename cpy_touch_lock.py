@@ -48,7 +48,7 @@ class CPYTouchLock:
         # Set up our internal state
         self.combination = combination
         self.current_pos = 0
-        self.num_pixels = 8
+        self.num_pixels = 10
 
         # Set up the NeoPixels. We use colored blink codes to display status.
         self.pixels = neopixel.NeoPixel(board.D8, self.num_pixels)
