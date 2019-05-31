@@ -1,0 +1,7 @@
+"deploy_as": "main.py"
+"libraries":
+  - "adafruit_fancyled"
+  - "adafruit_circuitplayground"
+  - "adafruit_itertools"
+  - "adafruit_sdcard"
+  - "nonexistent"
